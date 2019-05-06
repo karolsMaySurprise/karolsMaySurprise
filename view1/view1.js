@@ -63,7 +63,7 @@ angular.module('myApp.view1', ['ngRoute'])
   $scope.currentDate = new Date()
   $scope.itsTime = $scope.currentDate.getMonth() + 1 == 5 && $scope.currentDate.getFullYear() == 2019 && $scope.currentDate.getDate() == 5
 
-  if($scope.itsTime){
+  if(true){
       $scope.linkDescription = "YEW ITS TIME";
       $scope.linkDescription = "CLICK ME";
       $scope.linkUrl = decode64(url);
